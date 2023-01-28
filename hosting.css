@@ -1,0 +1,101 @@
+#SHOP {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #323234;
+}
+
+body{
+	background-color:#333;
+}
+
+#SHOP h3 {
+	color:#f9f9f9;
+	padding-top: 70px;
+	font-size: 30px;
+}
+
+#SHOP p {
+	font-family: 'Segoe UI';
+	font-size: 1.2rem;
+	padding: 10px;
+}
+
+.work {
+	display: flex;
+	flex:1;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 2px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	width: 270px;
+	height: 290px;
+	border-radius: 12px;
+	/* background: var(--main-decor-color); */
+	/* background-color: #292E34; */
+	background-color:#fff;
+}
+
+.card img {
+	padding: 18px;
+	width: 100%;
+	border-radius: 12px 12px 0px 0px;
+}
+
+.card .description {
+	text-align: left;
+	font-size: 1.5rem;
+	color: red;
+	background-color: red;
+	font-family: Georgia;
+	cursor: pointer;
+}
+
+.card p {
+	font-family: monospace;
+	font-size: 20px;
+	text-align: left;
+	color: #000;
+	text-decoration:bold;
+	/* margin:0 0 18px 10008px; */
+	/* margin: 0px; */
+	background-color: #fff;
+}
+
+.card:hover {
+	box-shadow: 0 0 1.5rem #292E34;
+}
+
+.card a {
+	font-family: monospace;
+	margin: 47.5px 0px 0px 0px;
+	display: block;
+	font-style:bold;
+	background-color: #7076FE;
+	color: #fff;
+	font-size: 20px;
+	padding: 12px;
+	border-radius: 0 0 12px 12px;
+	text-align: center;
+	text-decoration: none;
+}
+
+hr {
+	background: #7076FE;
+	margin: 2px;
+	height: 3px;
+	width: 240px;
+	border-radius: 0px;
+	border: hidden;
+	margin-inline-start: auto;
+	margin-inline-end: auto;
+}
